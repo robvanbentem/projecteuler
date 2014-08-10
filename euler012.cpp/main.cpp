@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <iostream>
 #include <math.h>
-
 
 int divtri(long L){
   long n, lim = sqrt(L)+1; // limit test to sqrt of L and count matches x2 (e.g. 100%5 is 5 and 20)
